@@ -115,12 +115,38 @@ nav ul li button{
 /*2.Header Section Ends*/
 
 /*3. Main Section Start */
+main{
+    max-width: 1140px;
+    margin:0 auto;
+}
 
 .about{
     padding:130px 156px;
     border-radius: 10px;
-    margin:130px auto;
+    margin:130px 0;
     background: #FFF8F3;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+
+}
+.info{
+    text-align: center;
+    color: #757575;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px; /* 150% */
+}
+.info-description{
+    color:  #474747;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
 }
 
 
