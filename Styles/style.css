@@ -19,11 +19,13 @@ background: #FD6E0A;
 font-size: 20px;
 font-weight: 700;
 border-radius: 5px;
+border:0;
 
 }
 
 /* Global Section End */
 /*2.Header Section Start */
+
 .logo{
     font-size: 45px;
     font-weight: 800;
@@ -34,6 +36,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin:0 200px;
 }
 nav>ul{
     display: flex;
@@ -53,7 +56,21 @@ nav ul li button{
     border:0;
     padding:15px 36px;
 }
+    /*2.1 Hero Section*/
+    .header{
+        background: #FFF8F3;
+    }
+    .hero{
+        display:flex;
+        padding:30px 30px 30px 150px; 
+        align-items: center;
+    }
+    .hero-img img{
+        width: 584px;
 
+        height: 676px;
+
+    }
 
 /*2.Header Section Ends*/
 
