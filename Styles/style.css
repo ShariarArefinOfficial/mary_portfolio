@@ -20,6 +20,8 @@ font-size: 20px;
 font-weight: 700;
 border-radius: 5px;
 border:0;
+padding:15px 36px;
+
 
 }
 
@@ -57,19 +59,44 @@ nav ul li button{
     padding:15px 36px;
 }
     /*2.1 Hero Section*/
+
     .header{
-        background: #FFF8F3;
+        background-color: #FFF8F3;
+
     }
     .hero{
         display:flex;
-        padding:30px 30px 30px 150px; 
+        padding:30px 30px 0px 150px; 
         align-items: center;
+        justify-content: space-between;
+        background: url("../images/header_bg.png");
+        background-repeat: no-repeat;
+        background-position: bottom right;
+
+    }
+    .hero-heading{
+        color: #474747;
+        font-size: 45px;
+        font-weight: 600;
+        margin:0;
+
+    }
+    .hero-heading-name{
+        color: #181818;
+        font-size: 85px;
+        font-weight: 700;
+        margin:0;
+    }
+    .hero-description{
+        color: #757575;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px; 
+        max-width: 585px;
     }
     .hero-img img{
         width: 584px;
-
-        height: 676px;
-
+        margin:-10px 0 0 0 ;
     }
 
 /*2.Header Section Ends*/
