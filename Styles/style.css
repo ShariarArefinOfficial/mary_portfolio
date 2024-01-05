@@ -13,6 +13,14 @@ body{
     color:#FD6E0A;
 
 }
+.btn-primary{
+    color:#FFF;
+background: #FD6E0A;
+font-size: 20px;
+font-weight: 700;
+border-radius: 5px;
+
+}
 
 /* Global Section End */
 /*2.Header Section Start */
@@ -24,14 +32,28 @@ body{
 
 nav{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 nav>ul{
     display: flex;
+    align-items: center;
 }
 nav ul li {
     list-style: none;
     margin-right:50px;
 }
+nav ul li a{
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+    font-weight: 400;
+}
+nav ul li button{
+    border:0;
+    padding:15px 36px;
+}
+
 
 /*2.Header Section Ends*/
 
