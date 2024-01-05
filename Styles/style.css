@@ -5,12 +5,37 @@ Developer Name : Shariar Arefin
 
 /*1. Global Section Start */
 body{
-    margin: 0;
-    Padding:0;
+   
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.primary-color{
+    color:#FD6E0A;
+
 }
 
 /* Global Section End */
-/*2. Main Section Start */
+/*2.Header Section Start */
+.logo{
+    font-size: 45px;
+    font-weight: 800;
+    color:#181818;
+}
+
+nav{
+    display: flex;
+}
+nav>ul{
+    display: flex;
+}
+nav ul li {
+    list-style: none;
+    margin-right:50px;
+}
+
+/*2.Header Section Ends*/
+
+/*3. Main Section Start */
 
 
 /* Main Section Start */
