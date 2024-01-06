@@ -210,13 +210,54 @@ font-size: 16px;
 font-weight: 400;
 line-height: 28px; /* 175% */
 }
+.download-CV{
+    text-align: center;
+    margin-top:50px;
+
+}
 /*Resume Section Ends*/
 
 
 
 
 
-/* Main Section Start */
+/* Main Section Ends */
 
+/*Footer Section Start*/
+footer{
+background-color: #FFF8F3;
+margin-top:50px;
+padding:150px 200px;
+}
+.Login-cntainer{
+    max-width: 1140px;
+    margin:0 auto;
+    
+    display: flex;
+    gap:100px;
+}
+.Login-cntainer h3{
+    text-align: left;
+    max-width:75%;
+
+}
+.Login-cntainer p{
+    text-align:left;
+}
+.footer-col{
+    width:50%;
+}
+.contact input[type="text"],.contact input[type="email"],.contact textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding:18px 35px;
+    color:#757575;
+    border-radius: 5px;
+    background-color: #fff;
+    border:0;
+    width:100%;
+
+}
+/*Footer Section ENds*/
 
 
