@@ -5,7 +5,8 @@ Developer Name : Shariar Arefin
 
 /*1. Global Section Start */
 body{
-   
+    margin:0;
+    padding: 0;
     font-family: 'Open Sans', sans-serif;
     
 }
